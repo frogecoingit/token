@@ -1,3 +1,9 @@
+//unliscensed code
+//This is a community token for entertaimnent purposes only 
+//Do not invest with expectation of this being a financial asset
+//Do your own research and read whitepaper before swapping
+//12% tax
+
 pragma solidity ^0.6.12;
 
 interface IERC20 
@@ -416,7 +422,7 @@ contract FrogeCoin is Context, IERC20, Ownable
     address[] private _excluded;
    
     uint256 private constant MAX = ~uint256(0);
-    uint256 private _tTotal = 200_000_000_000_000 * 10**9;
+    uint256 private _tTotal = 100_000_000_000_000 * 10**9;
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
     string private _name = "FROGE COIN";
@@ -435,9 +441,9 @@ contract FrogeCoin is Context, IERC20, Ownable
     uint256 public _charityFee = 6;
     uint256 private _previousCharityFee = _charityFee;
     
-    address public charityWallet =  0x5ce53FeC4cd3ccb3f7272Fe10a8269F37e535c45;  
-    address public developmentWallet =  0x8899Ebf2cf85E901347b0C23cc340f7f4686A055;
-    address public marketingWallet =  0x971d3B84749dFF7c97AbfdBa2f417465C51AfA70;
+    address public charityWallet =  0x6d7DB6948370400ae1262e55e35A21860Ba5C805;  
+    address public developmentWallet =  0xfc0De5aa264065a61813e51Ff09614c83d43168A;
+    address public marketingWallet =  0x3AD3e76dBc097580F6f8E06d8f7b968d5Cc64B55;
     
     
 
